@@ -33,6 +33,13 @@ android {
     }
 }
 
+allprojects {
+    repositories {
+
+        maven { url 'https://jitpack.io' }
+    }
+}
+
 dependencies {
     //api 'com.onesignal:OneSignal:3.16.0'
     api 'com.github.neel-sharma:OneSignal:5.0.0'
